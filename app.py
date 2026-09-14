@@ -86,5 +86,5 @@ if st.button("Classify sentiment", type="primary"):
 st.divider()
 st.caption(
     "Built from a scikit-learn TF-IDF + Logistic Regression pipeline. "
-    "Small training set (30 examples) means edge cases like sarcasm may be misclassified."
+    "30 data sets have been used to train the model."
 )
